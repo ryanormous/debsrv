@@ -1,0 +1,45 @@
+body {
+    margin: 2em;
+    font-family: sans-serif;
+    color: #DDD;
+    background-color: #020008;
+}
+#root {
+    margin: 0;
+    font-size: 6.5em;
+    font-family: inherit;
+    color: #555;
+}
+#root:hover {
+    text-shadow: 0 0 3px #F8D;
+    color: #777;
+}
+a, a:active, a:visited{
+    display: block;
+    margin: 0.5em;
+    width: 10em;
+    font-family: courier;
+    white-space: nowrap;
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: #F8D;
+}
+a:active {
+    text-decoration: inherit;
+    color: #00F;
+    text-shadow: 0 0 3px #F8D;
+}
+pre.doc {
+    font-family: inherit;
+}
+.src {
+    margin: 1em 0.5em;
+    padding: 1.2em;
+    border: 1px solid #00F;
+    overflow: auto;
+    font-size: 1.2em;
+    color: #020008;
+    background-color: #777;
+}
